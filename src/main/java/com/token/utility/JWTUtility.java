@@ -1,4 +1,5 @@
 package com.token.utility;
+
 import java.io.Serializable;
 import java.util.function.Function;
 import org.springframework.beans.factory.annotation.Value;

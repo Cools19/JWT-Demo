@@ -1,26 +1,23 @@
 package com.token.demo.model;
 
+
 public class JwtResponse {
-	private String username;
-	private String password;
-	public String getUsername() {
-		return username;
+	
+	private String jwtToken;
+
+	public String getJwtToken() {
+		return jwtToken;
 	}
-	public void setUsername(String username) {
-		this.username = username;
+
+	public void setJwtToken(String jwtToken) {
+		this.jwtToken = jwtToken;
 	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-		
-	}
-	public  JwtRequest(String username , String password) {
+
+	public JwtResponse(String jwtToken) {
 		super();
-		this.username = username;
-		this.password = password;
+		this.jwtToken = jwtToken;
 	}
+
 	public JwtResponse() {
 		super();
 	}
